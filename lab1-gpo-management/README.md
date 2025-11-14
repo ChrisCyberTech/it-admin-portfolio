@@ -21,7 +21,7 @@ Created **GPO1 – Password Policy** and configured domain password requirements
 - Store passwords using reversible encryption: Disabled  
 
 **Screenshot:**  
-`./screenshots/Lab1-GPO-01_PasswordPolicySettings.png`
+./screenshots/Lab1-GPO-01_PasswordPolicySettings.png
 
 ---
 
