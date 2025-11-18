@@ -89,9 +89,6 @@ ipconfig /registerdns
 dnscmd /recorddelete lab.local web01 A /f
 Clear-DnsServerCache -Force
 
-yaml
-Copy code
-
 ---
 
 ## What I Learned
