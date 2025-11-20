@@ -16,7 +16,7 @@ This lab covers creating AD security groups, assigning users, building a shared 
 ![lab4-03-dc01-create-it-sg](./screenshots/lab4-03-dc01-create-it-sg.png)
 
 ### 1.4 Create Public-SG  
-![lab4-04-dc01-create-public-sg](./screenshots/l4-04-dc01-create-public-sg.png)
+![lab4-04-dc01-create-public-sg](./screenshots/lab4-04-dc01-create-public-sg.png)
 
 ---
 
