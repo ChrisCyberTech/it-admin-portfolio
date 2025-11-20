@@ -60,7 +60,7 @@ This lab covers creating AD security groups, assigning users, building a shared 
 ![lab4-13-dc01-it-ntfs-permissions](./screenshots/lab4-13-dc01-it-ntfs-permissions.png)
 
 ### 4.4 Public folder NTFS permissions  
-![lab4-14-dc01-public-ntfs-permissions](./screenshots/l4-14-dc01-public-ntfs-permissions.png)
+![lab4-14-dc01-public-ntfs-permissions](./screenshots/lab4-14-dc01-public-ntfs-permissions.png)
 
 ---
 
@@ -78,7 +78,7 @@ This lab covers creating AD security groups, assigning users, building a shared 
 ![lab4-17-dc01-it-share-permissions](./screenshots/lab4-17-dc01-it-share-permissions.png)
 
 ### 5.4 Public share permissions (Public)  
-![lab4-18-dc01-public-share-permissions](./screenshots/l4-18-dc01-public-share-permissions.png)
+![lab4-18-dc01-public-share-permissions](./screenshots/lab4-18-dc01-public-share-permissions.png)
 
 ---
 
