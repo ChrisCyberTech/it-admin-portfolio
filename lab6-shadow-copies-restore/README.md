@@ -1,9 +1,24 @@
-# 🗂️ Lab 6 — Shadow Copies & File Restore  
-This lab demonstrates how to enable Shadow Copies on FS01, delete a file, and restore it using Previous Versions.
+# 🗂️ Lab 6 — Shadow Copies & File Restore
+
+This lab demonstrates how to enable Shadow Copies on FS01, delete a file in a shared folder, and restore it using the Previous Versions feature in Windows Server.
 
 ---
 
-## 📁 Folder Structure  
+## 🎯 **Lab Objectives**
+
+By the end of this lab, you will be able to:
+
+- Understand the purpose of **Shadow Copies** in Windows Server  
+- Enable Shadow Copies on a volume  
+- Create a file inside a shared folder used by domain users  
+- Delete a file and simulate real-world accidental deletion  
+- Restore files using **Previous Versions**  
+- Verify file restoration in a shared folder
+
+---
+
+## 📁 Folder Structure (GitHub)
+
 screenshots/
 FS01-01-companyshares-folders.png
 FS01-02-shadowcopies-enabled.png
@@ -27,7 +42,7 @@ C:\CompanyShares
 yaml
 Copy code
 
-You should see the subfolders **Finance**, **HR**, and **IT**.
+Confirm the subfolders **Finance**, **HR**, and **IT** exist.
 
 **Screenshot:**  
 ![FS01-01](screenshots/FS01-01-companyshares-folders.png)
@@ -40,7 +55,9 @@ You should see the subfolders **Finance**, **HR**, and **IT**.
 2. Go to the **Shadow Copies** tab  
 3. Select **C:\\**  
 4. Click **Enable**  
-5. (Optional) Configure **Storage Size** and **Schedule**
+5. Optionally configure:
+   - Storage size  
+   - Snapshot schedule  
 
 **Screenshot:**  
 ![FS01-02](screenshots/FS01-02-shadowcopies-enabled.png)
@@ -80,8 +97,8 @@ Delete **TestFile.txt** from the IT folder.
 # ✅ **Step 5 — Open Previous Versions**
 
 1. Right-click **IT folder** → **Properties**  
-2. Go to **Previous Versions**  
-3. Select a shadow copy made *before the file was deleted*
+2. Go to the **Previous Versions** tab  
+3. Select a shadow copy taken *before* deletion  
 
 **Screenshot:**  
 ![FS01-05](screenshots/FS01-05-previous-versions-window.png)
@@ -90,7 +107,7 @@ Delete **TestFile.txt** from the IT folder.
 
 # ✅ **Step 6 — Restore the Folder**
 
-Click **Restore** → Confirm the restoration.
+Click **Restore** and confirm.
 
 **Screenshot:**  
 ![FS01-06](screenshots/FS01-06-restore-confirmation.png)
@@ -106,21 +123,33 @@ C:\CompanyShares\IT
 yaml
 Copy code
 
-Confirm **TestFile.txt** is restored.
+Confirm **TestFile.txt** has been restored successfully.
 
 **Screenshot:**  
 ![FS01-07](screenshots/FS01-07-restored-file-verification.png)
 
 ---
 
-# 🎉 **Lab Complete**
+# 📌 **Summary / Lessons Learned**
 
-You successfully:
+This lab demonstrated a realistic scenario where a user accidentally deletes an important file from a shared folder. Shadow Copies provide:
 
-✔ Enabled Shadow Copies  
-✔ Created a file  
-✔ Deleted it  
-✔ Restored it using Previous Versions  
-✔ Verified the restored data  
+### ✔ Fast file recovery without needing a full backup  
+### ✔ End-user self-service via Previous Versions  
+### ✔ Protection against accidental deletion or overwriting  
+### ✔ Low-storage, low-maintenance snapshots  
+### ✔ A critical feature in enterprise file servers  
 
-This demonstrates real-world file recovery for shared folders in Windows Server environments.
+You learned how to:
+
+- Configure Shadow Copies (volume-level snapshots)  
+- Manage storage allocation and schedules  
+- Restore files or folders using Previous Versions  
+- Verify successful recovery  
+
+Shadow Copies are one of the simplest, fastest, and most effective safety mechanisms for shared folders on Windows Server.
+
+---
+
+# 🎉 **Lab Complete — Shadow Copies & File Restore**
+This lab can now be added to your GitHub FS01 section as a complete documentation example with screenshots and outcomes.
