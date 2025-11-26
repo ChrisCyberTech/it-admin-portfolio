@@ -17,30 +17,11 @@ By the end of this lab, you will be able to:
 
 ---
 
-## 📁 Folder Structure (GitHub)
-
-screenshots/
-FS01-01-companyshares-folders.png
-FS01-02-shadowcopies-enabled.png
-FS01-03-create-testfile.png
-FS01-04-delete-testfile.png
-FS01-05-previous-versions-window.png
-FS01-06-restore-confirmation.png
-FS01-07-restored-file-verification.png
-
-yaml
-Copy code
-
----
-
 # ✅ **Step 1 — Verify Folder Structure**
 
 On **FS01**, open File Explorer and navigate to:
 
 C:\CompanyShares
-
-yaml
-Copy code
 
 Confirm the subfolders **Finance**, **HR**, and **IT** exist.
 
@@ -70,15 +51,9 @@ Navigate to:
 
 C:\CompanyShares\IT
 
-sql
-Copy code
-
 Create a new file named:
 
 TestFile.txt
-
-yaml
-Copy code
 
 **Screenshot:**  
 ![FS01-03](screenshots/FS01-03-create-testfile.png)
@@ -120,9 +95,6 @@ Return to:
 
 C:\CompanyShares\IT
 
-yaml
-Copy code
-
 Confirm **TestFile.txt** has been restored successfully.
 
 **Screenshot:**  
@@ -140,16 +112,5 @@ This lab demonstrated a realistic scenario where a user accidentally deletes an 
 ### ✔ Low-storage, low-maintenance snapshots  
 ### ✔ A critical feature in enterprise file servers  
 
-You learned how to:
-
-- Configure Shadow Copies (volume-level snapshots)  
-- Manage storage allocation and schedules  
-- Restore files or folders using Previous Versions  
-- Verify successful recovery  
-
-Shadow Copies are one of the simplest, fastest, and most effective safety mechanisms for shared folders on Windows Server.
-
 ---
 
-# 🎉 **Lab Complete — Shadow Copies & File Restore**
-This lab can now be added to your GitHub FS01 section as a complete documentation example with screenshots and outcomes.
