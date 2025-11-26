@@ -179,7 +179,7 @@ FS01-05-previous-versions-window.png
 FS01-06-restore-confirmation.png
 
 FS01-07-restored-file-verification.png
-
+```
 📁 Folder Structure
 pgsql
 Copy code
