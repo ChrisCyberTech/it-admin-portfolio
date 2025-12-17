@@ -28,7 +28,7 @@ Each lab is documented using the same structured workflow as my Help Desk portfo
 | 5 | [AGDLP Security Groups](./lab5-agdlp-security-groups) | Implement Microsoft's AGDLP permission model using global, domain local, and nested security groups. |
 | 6 | [Shadow Copies & Restore](./lab6-shadow-copies-restore) | Enable shadow copies, delete test files, and perform user-driven file restoration. |
 | 7 | [Backup & Recovery Basics](./lab7-backup-and-recovery) | Configure Windows Server backup, run incremental backups, and perform file/volume recovery. |
-| 8 | [Software Deployment via GPO](./lab8-software-deployment-gpo) | Deploy MSI-based software packages across domain computers using Group Policy. |
+
 
 ---
 
